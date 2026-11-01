@@ -2,14 +2,16 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
 android {
-    namespace = "com.januai.app"
+    namespace = "com.janu.ai"
     compileSdk = 35
+
     defaultConfig {
-        applicationId = "com.januai.app"
+        applicationId = "com.janu.ai"
         minSdk = 23
-        targetSdk = 28
+        targetSdk = 35
         versionCode = 1
-        versionName = "0.1"
+        versionName = "1.0"
     }
 }
